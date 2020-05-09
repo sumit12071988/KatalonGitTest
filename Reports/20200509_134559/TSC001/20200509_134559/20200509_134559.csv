@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSC001,Chrome 81.0.4044.138,,,2020-05-09 13:46:12,2020-05-09 13:47:00,48.945s,PASSED
+,,,,,,,
+Test Cases/TC001_First User,Chrome 81.0.4044.138,,,2020-05-09 13:46:12,2020-05-09 13:46:43,31.097s,PASSED
+"openBrowser(""https://lifecharger.org/"")",Chrome 81.0.4044.138,,,2020-05-09 13:46:13,2020-05-09 13:46:32,19.587s,PASSED
+"click(findTestObject(""OR_TC001/Page_Life Charger   a new beginning/a_Archives""))",Chrome 81.0.4044.138,,,2020-05-09 13:46:32,2020-05-09 13:46:37,4.568s,PASSED
+"click(findTestObject(""OR_TC001/Page_Archives  Life Charger/a_Books I am reading""))",Chrome 81.0.4044.138,,,2020-05-09 13:46:37,2020-05-09 13:46:39,2.648s,PASSED
+"click(findTestObject(""OR_TC001/Page_Books I am reading  Life Charger/a_About""))",Chrome 81.0.4044.138,,,2020-05-09 13:46:39,2020-05-09 13:46:42,2.570s,PASSED
+closeBrowser(),Chrome 81.0.4044.138,,,2020-05-09 13:46:42,2020-05-09 13:46:43,1.117s,PASSED
+,,,,,,,
+Test Cases/TC002_Second User,Chrome 81.0.4044.138,,,2020-05-09 13:46:43,2020-05-09 13:47:00,17.410s,PASSED
+"openBrowser(""https://www.katalon.com/"")",Chrome 81.0.4044.138,,,2020-05-09 13:46:43,2020-05-09 13:47:00,16.221s,PASSED
+closeBrowser(),Chrome 81.0.4044.138,,,2020-05-09 13:47:00,2020-05-09 13:47:00,0.862s,PASSED
