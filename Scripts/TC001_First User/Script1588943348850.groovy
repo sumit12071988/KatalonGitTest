@@ -15,3 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('https://lifecharger.org/')
+
+WebUI.click(findTestObject('OR_TC001/Page_Life Charger   a new beginning/a_Archives'))
+
+WebUI.click(findTestObject('OR_TC001/Page_Archives  Life Charger/a_Books I am reading'))
+
+WebUI.click(findTestObject('OR_TC001/Page_Books I am reading  Life Charger/a_About'))
+
+WebUI.closeBrowser()
+
