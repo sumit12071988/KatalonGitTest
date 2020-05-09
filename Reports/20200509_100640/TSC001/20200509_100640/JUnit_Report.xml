@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSC001" time="49.627" tests="2" failures="0" errors="0">
+   <testsuite name="TSC001" tests="2" failures="0" errors="0" time="49.627" timestamp="2020-05-09 10:07:00" hostname="Sumit.Saha - XKL-0329.xchanging.my.local" id="Test Suites/TSC001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sumit.saha\\git\\KatalonGitTest\\Reports\\20200509_100640\\TSC001\\20200509_100640"/>
+         <property name="logFiles" value="C:\\Users\\sumit.saha\\git\\KatalonGitTest\\Reports\\20200509_100640\\TSC001\\20200509_100640\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sumit.Saha - XKL-0329.xchanging.my.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.4.0.1"/>
+         <property name="browser" value="Chrome 81.0.4044.138"/>
+         <property name="hostAddress" value="10.28.208.14"/>
+         <property name="sessionId" value="d2dd54fbd2bc947a8f8594d408f82422"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC001_First User" time="32.938" classname="Test Cases/TC001_First User" status="PASSED">
+         <system-out><![CDATA[2020-05-09 10:07:01 - [TEST_CASE][PASSED] - Test Cases/TC001_First User: Test Cases/TC001_First User
+
+2020-05-09 10:07:01 - [TEST_STEP][PASSED] - openBrowser("https://lifecharger.org/"): Browser is opened with url: 'https://lifecharger.org/'
+
+2020-05-09 10:07:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-09 10:07:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-09 10:07:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://lifecharger.org/'
+
+2020-05-09 10:07:21 - [TEST_STEP][PASSED] - click(findTestObject("OR_TC001/Page_Life Charger   a new beginning/a_Archives")): Object: 'Object Repository/OR_TC001/Page_Life Charger   a new beginning/a_Archives' is clicked on
+
+2020-05-09 10:07:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_TC001/Page_Life Charger   a new beginning/a_Archives' is clicked on
+
+2020-05-09 10:07:24 - [TEST_STEP][PASSED] - click(findTestObject("OR_TC001/Page_Archives  Life Charger/a_Books I am reading")): Object: 'Object Repository/OR_TC001/Page_Archives  Life Charger/a_Books I am reading' is clicked on
+
+2020-05-09 10:07:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_TC001/Page_Archives  Life Charger/a_Books I am reading' is clicked on
+
+2020-05-09 10:07:30 - [TEST_STEP][PASSED] - click(findTestObject("OR_TC001/Page_Books I am reading  Life Charger/a_About")): Object: 'Object Repository/OR_TC001/Page_Books I am reading  Life Charger/a_About' is clicked on
+
+2020-05-09 10:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_TC001/Page_Books I am reading  Life Charger/a_About' is clicked on
+
+2020-05-09 10:07:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-09 10:07:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002_Second User" time="15.715" classname="Test Cases/TC002_Second User" status="PASSED">
+         <system-out><![CDATA[2020-05-09 10:07:34 - [TEST_CASE][PASSED] - Test Cases/TC002_Second User: Test Cases/TC002_Second User
+
+2020-05-09 10:07:34 - [TEST_STEP][PASSED] - openBrowser("https://www.katalon.com/"): Browser is opened with url: 'https://www.katalon.com/'
+
+2020-05-09 10:07:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-05-09 10:07:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-05-09 10:07:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.katalon.com/'
+
+2020-05-09 10:07:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-05-09 10:07:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-05-09 10:07:00 - [TEST_SUITE][PASSED] - TSC001: Test Cases/TC002_Second User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
